@@ -41,3 +41,67 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Timeline Container */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 2em 0;
+  padding-left: 30px;
+}
+
+/* The vertical line */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #e1e4e8;
+  top: 0;
+  bottom: 0;
+  left: 7px;
+}
+
+/* Individual Timeline Item */
+.timeline-item {
+  padding: 10px 0 20px 20px;
+  position: relative;
+}
+
+/* The circles on the line */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -29px;
+  background-color: white;
+  border: 3px solid #2980b9; /* You can change this color */
+  border-radius: 50%;
+  top: 15px;
+  z-index: 1;
+}
+
+.timeline-date {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #7f8c8d;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.timeline-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.timeline-location {
+  font-style: italic;
+  color: #34495e;
+  display: block;
+}
+
+.timeline-content {
+  font-size: 0.95em;
+  margin-top: 8px;
+}
