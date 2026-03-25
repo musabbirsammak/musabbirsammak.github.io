@@ -1,7 +1,8 @@
 ---
-title: 'Blog Post number 1'
+title: 'Sample Blog'
 date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+permalink: /posts/2012/08/sample-blog/
+published: false
 tags:
   - cool posts
   - category1
@@ -9,12 +10,3 @@ tags:
 ---
 
 This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
-
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
