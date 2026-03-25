@@ -1,0 +1,14 @@
+---
+title: "Model and Popularity Based Recommendation System - A Collaborative Filtering Approach"
+collection: publications
+category: conferences
+permalink: /publication/model-and-popularity-based-recommendation-system-a-collaborative-filtering-approach
+excerpt: 'We developed a recommendation system using model-based collaborative filtering and a popularity-based baseline to improve product recommendations on Daraz. Using matrix factorization, K-means clustering, Truncated SVD, and TF-IDF vectorization, the approach addresses cold-start and data sparsity by uncovering user–item relationships from ratings and item features. The study compares methods and demonstrates how collaborative filtering can outperform popularity-only approaches for more accurate, personalized recommendations.'
+date: 2022-10-5
+venue: '2022 13th International Conference on Computing Communication and Networking Technologies (ICCCNT)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/9984348'
+citation:
+bibtexurl: '../files/publications/bibtex/model-and-popularity-based-recommendation-system-a-collaborative-filtering-approach.bib'
+---
+
+A recommendation system (RS) is a crucial application in the modern world, however it’s still unclear if recommendations can be effective and accurate. Collaborative filtering has been used for many years to improve and increase the accuracy of recommendations. Although numerous strategies have been employed, such as content-based filtering and deep learning, collaborative filtering models can identify new interests between users and items without the need for specialized knowledge. The new user problem known as cold start using user ratings can be solved by collaborative filtering, which uses item ratings to predict user preference and is effective to predict better than traditional algorithms and popularity-based approach. A product is referred to as popular by the most user ratings in one specific product. The Daraz ecommerce website, which includes four characteristics, is where we got the data for our study. For this analysis, we used Modelbased Collaborative Filtering and Popularity-based approach to solve issues like cold start and data sparsity where we use Matrix factorization and K-means clustering including Truncated SVD and TF-IDF Vectorizer as algorithm to find user and item relation for better and more effective product recommendation. This study will assist to explore how recommendation systems are employed, their many approaches, and the specific algorithms and methodologies we used in our methodology, all of which may aid in providing a thorough understanding of recommendation systems.

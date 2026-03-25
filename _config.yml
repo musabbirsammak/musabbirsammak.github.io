@@ -23,13 +23,13 @@ repository               : "musabbirsammak/musabbirsammak.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.jpeg"
   name             : "Musabbir Hasan Sammak"
   pronouns         : # example: "she/her"  
   bio              : "Student of Quantitative Biology. Interested in computational biology & molecular dynamics."
   location         : "Milan, Italy"
   employer         : "University of Milan"
-  uri              : # URL
+  uri              : "https://musabbirsammak.github.io/"
   email            : # Email 
 
   # Academic websites
