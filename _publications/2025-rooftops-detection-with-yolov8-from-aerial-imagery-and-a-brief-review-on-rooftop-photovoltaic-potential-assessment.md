@@ -1,5 +1,5 @@
 ---
-title: "Rooftops detection with YOLOv8 from aerial imagery and a brief review on rooftop photovoltaicpotential assessment"
+title: "Rooftops detection with YOLOv8 from aerial imagery and a brief review on rooftop photovoltaic potential assessment"
 collection: publications
 category: manuscripts
 permalink: /publication/rooftops-detection-with-yolov8-from-aerial-imagery-and-a-brief-review-on-rooftop-photovoltaic-potential-assessment
