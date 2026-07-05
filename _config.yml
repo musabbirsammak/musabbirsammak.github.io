@@ -23,7 +23,7 @@ repository               : "musabbirsammak/musabbirsammak.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "profile.jpg"
   name             : "Musabbir Hasan Sammak"
   pronouns         : # example: "she/her"  
   bio              : "Student | AI | Computational Biology | Molecular Dynamics"
