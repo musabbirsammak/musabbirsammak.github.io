@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/rooftops-detection-with-yolov8-from-aerial-imagery-and-a-brief-review-on-rooftop-photovoltaic-potential-assessment
 excerpt: 'We used drone imagery of 5,076 rooftops and YOLOv8 to detect ten roof shapes (triangle, square, penta, hexa, hepta, octa, nona, deca, gabled, hipped) for solar PV siting, achieving 93.6% accuracy with strong precision, recall, and F1 performance—supporting scalable rooftop PV potential assessment.'
 date: 2025-06-03
-venue: 'IAES International Journal of Artificial Intellige'
+venue: 'IAES International Journal of Artificial Intelligence'
 slidesurl: 
 paperurl: 'https://ijai.iaescore.com/index.php/IJAI/article/view/24159'
 citation:
