@@ -5,17 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-<hr/>  
-<div class="wordwrap"><h1>You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</h1></div>
-<hr/>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<div class="timeline">
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -25,14 +20,35 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      
+      <div class="timeline-item">
+        <span class="timeline-date">{{ post.date | date: "%B, %Y" }} | {{ post.venue }}</span>
+        <p class="timeline-title">
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+        </p>
+        
+        <div class="timeline-content">
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | markdownify | strip_html }}</p>
+          {% endif %}
+        </div>
+      </div>
+
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <div class="timeline-item">
+      <span class="timeline-date">{{ post.date | date: "%B, %Y" }} | {{ post.venue }}</span>
+      <p class="timeline-title">
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      </p>
+      <div class="timeline-content">
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | markdownify | strip_html }}</p>
+        {% endif %}
+      </div>
+    </div>
   {% endfor %}
 {% endif %}
-
-
-
+</div>
