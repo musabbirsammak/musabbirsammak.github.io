@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Musabbir Hasan Sammak"
   pronouns         : # example: "she/her"  
-  bio              : "Student | AI | Computational Biology | Molecular Dynamics"
+  bio              : "Computational Biology | Biophysics | Artificial Intelligence"
   location         : "Milan, Italy"
-  employer         : "University of Milan"
+  employer         : 
   uri              : 
   email            : # Email 
 
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=CLZoRLIAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0001-9060-0787"
+  orcid            : 
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
