@@ -14,7 +14,7 @@ redirect_from:
     <span class="timeline-date">October, 2025 — Present</span>
     <p class="timeline-title">M.Sc. in Quantitative Biology</p>
     <span class="timeline-location"><h1><a target="_balnk" href="https://qbio.cdl.unimi.it/en">University of Milan</a></h1></span>
-    <span class="timeline-date">Milan, Italy | Score: 28/30 (23 ECTS)</span>
+    <span class="timeline-date">Milan, Italy | Avg. Score: 28/30 (23 ECTS)</span>
     <div class="timeline-content">
       <b>Courses Attended:</b> Mathematical Modeling, Programming in Python, Cell Biophysics, Molecular Biophysics, Imaging in Live Cells, Advanced Molecular Biology, Spectroscopy, Structural Biology.
     </div>
