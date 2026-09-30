@@ -11,17 +11,27 @@ redirect_from:
 <div class="timeline">
 
   <div class="timeline-item">
-    <span class="timeline-date">October, 2025 — Present</span>
-    <p class="timeline-title">M.Sc. in Quantitative Biology</p>
-    <span class="timeline-location"><h1><a target="_balnk" href="https://qbio.cdl.unimi.it/en">University of Milan</a></h1></span>
-    <span class="timeline-date">Milan, Italy | Avg. Score: 28/30 (23 ECTS)</span>
+    <span class="timeline-date">September 2026 — Present</span>
+    <p class="timeline-title">Lecturer (Senior Scale) at Department of Software Engineering</p>
+    <span class="timeline-location"><h1><a target="_balnk" href="https://daffodilvarsity.edu.bd/department/swe">Daffodil International University</a></h1></span>
+    <span class="timeline-date">Dhaka, Bangladesh</span>
     <div class="timeline-content">
-      <b>Courses Attended:</b> Mathematical Modeling, Programming in Python, Cell Biophysics, Molecular Biophysics, Imaging in Live Cells, Advanced Molecular Biology, Spectroscopy, Structural Biology.
+      Teaching Statistics 101.
     </div>
   </div>
 
   <div class="timeline-item">
-    <span class="timeline-date">January 2022 — September 2025 (On Study Leave)</span>
+    <span class="timeline-date">October, 2025 — September 2026</span>
+    <p class="timeline-title">M.Sc. in Quantitative Biology</p>
+    <span class="timeline-location"><h1><a target="_balnk" href="https://qbio.cdl.unimi.it/en">University of Milan</a></h1></span>
+    <span class="timeline-date">Milan, Italy | Avg. Score: 28.36/30 (33 ECTS) | Dropped Out</span>
+    <div class="timeline-content">
+      <b>Courses Attended:</b> Mathematical Modeling, Programming in Python, Cell Biophysics, Imaging in Live Cells, Spectroscopy.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="timeline-date">January 2022 — September 2025</span>
     <p class="timeline-title">Lecturer (Senior Scale) at Department of Software Engineering</p>
     <span class="timeline-location"><h1><a target="_balnk" href="https://daffodilvarsity.edu.bd/department/swe">Daffodil International University</a></h1></span>
     <span class="timeline-date">Dhaka, Bangladesh</span>
